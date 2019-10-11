@@ -20,19 +20,6 @@ public class ArrayStack<T> implements Stack<T>{
 		a[++top]=item;
 	}
 
-	/*
-	public T pop(){
-		try{
-			if(empty())
-				throw new Exception("You cannot pop any values if the stack is empty");
-			return a[top--];
-		}
-		catch(Exception e){
-			throw e;
-		}
-	}
-	*/
-
 	public T pop(){
 		if(empty())
 			return null;

@@ -102,13 +102,4 @@ public class ArrayQueue<T> implements Queue<T>{
 		else
 			return false;
 	}
-
-	public static void main(String[] args) {
-		ArrayQueue queue = new ArrayQueue();
-		String first = "first";
-		queue.enqueue(first);
-		System.out.println(queue.empty());
-		for(int i=0; i<11; i++)
-			queue.enqueue(first);
-	}
 }
